@@ -1,9 +1,9 @@
 /* eslint-disable jsx-a11y/alt-text */
 
 import React, { useState } from 'react';
-import './Login.css'
+import '../CSS/Login.css'
 import { Link, useHistory } from "react-router-dom";
-import { auth } from "./firebase";
+import { auth } from "../middleware/firebase";
 
 function Login() {
     const history = useHistory();

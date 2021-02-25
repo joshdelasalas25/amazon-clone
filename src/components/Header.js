@@ -2,12 +2,12 @@
 /* eslint-disable jsx-a11y/alt-text */
 
 import React from "react";
-import "./Header.css";
+import "../CSS/Header.css";
 import SearchIcon from "@material-ui/icons/Search";
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 import { Link } from "react-router-dom";
-import { useStateValue } from "./StateProvider";
-import { auth } from "./firebase";
+import { useStateValue } from "../middleware/StateProvider";
+import { auth } from "../middleware/firebase";
 
 function Header() {
   const [{ basket, user }, dispatch] = useStateValue();
@@ -40,7 +40,7 @@ function Header() {
           </div>
         </Link>
 
-        <Link to='/orders' className="order">
+        <Link to='/orders' className="order_nav">
           <div className="header__option">
             <span className="header__optionLineOne">Returns</span>
             <span className="header__optionLineTwo">& Orders</span>

@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
-import './CheckoutProduct.css'
-import { useStateValue } from "./StateProvider";
+import '../CSS/CheckoutProduct.css'
+import { useStateValue } from "../middleware/StateProvider";
 import StarRateIcon from '@material-ui/icons/StarRate';
 
 

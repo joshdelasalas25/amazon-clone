@@ -68,6 +68,6 @@
   margin-right: 10px;
   color: white;
 }
- .auth, .order, .count {
+ .auth, .order_nav, .count {
   text-decoration: none;
 } 
